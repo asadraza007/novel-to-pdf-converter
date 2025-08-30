@@ -15,9 +15,9 @@ This project helps you download novels in PDF format from the [novelhubapp.com](
    ```
 3. Run the script with the desired novel ID:
    ```bash
-   node index.js <novel_id>
+   node index.js
    ```
-   Replace `<novel_id>` with the actual ID of the novel from novelhubapp.com.
+   To download a different novel, update the novel list and titles in the `novels` array inside `index.js`.
 
 4. The downloaded PDF will be saved in the `output/` folder.
 
